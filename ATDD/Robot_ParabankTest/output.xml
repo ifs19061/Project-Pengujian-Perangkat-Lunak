@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.9.6 on win32)" generated="20211222 13:41:48.595" rpa="false" schemaversion="2">
+<suite id="s1" name="Robot ParabankTest" source="D:\My Studi\Akademik\Semester 5\PPMPL\Eclipse\TestQA\PROYEK_ AKHIR_PPMPL\ATDD\Robot_ParabankTest">
+<suite id="s1-s1" name="TestSuite" source="D:\My Studi\Akademik\Semester 5\PPMPL\Eclipse\TestQA\PROYEK_ AKHIR_PPMPL\ATDD\Robot_ParabankTest\TestSuite">
+<suite id="s1-s1-s1" name="ForgotPassword" source="D:\My Studi\Akademik\Semester 5\PPMPL\Eclipse\TestQA\PROYEK_ AKHIR_PPMPL\ATDD\Robot_ParabankTest\TestSuite\ForgotPassword.robot">
+<test id="s1-s1-s1-t1" name="FirstSeleniumTest">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://parabank.parasoft.com/parabank/index.htm</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211222 13:41:49.331" level="INFO">Opening browser 'chrome' to base url 'https://parabank.parasoft.com/parabank/index.htm'.</msg>
+<status status="PASS" starttime="20211222 13:41:49.331" endtime="20211222 13:41:56.167"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>10</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" starttime="20211222 13:41:56.169" endtime="20211222 13:41:56.177"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211222 13:42:06.192" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20211222 13:41:56.179" endtime="20211222 13:42:06.192"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="loginPanel"]/p[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211222 13:42:06.194" level="INFO">Clicking element '//*[@id="loginPanel"]/p[1]/a'.</msg>
+<status status="PASS" starttime="20211222 13:42:06.193" endtime="20211222 13:42:08.294"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="firstName"]</arg>
+<arg>Nicholas</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211222 13:42:08.300" level="INFO">Typing text 'Nicholas' into text field '//*[@id="firstName"]'.</msg>
+<status status="PASS" starttime="20211222 13:42:08.297" endtime="20211222 13:42:08.590"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="lastName"]</arg>
+<arg>Sibarani</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211222 13:42:08.593" level="INFO">Typing text 'Sibarani' into text field '//*[@id="lastName"]'.</msg>
+<status status="PASS" starttime="20211222 13:42:08.591" endtime="20211222 13:42:08.746"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="address.street"]</arg>
+<arg>Jl Aman I No 30</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211222 13:42:08.747" level="INFO">Typing text 'Jl Aman I No 30' into text field '//*[@id="address.street"]'.</msg>
+<status status="PASS" starttime="20211222 13:42:08.746" endtime="20211222 13:42:08.919"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="address.city"]</arg>
+<arg>Medan</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211222 13:42:08.921" level="INFO">Typing text 'Medan' into text field '//*[@id="address.city"]'.</msg>
+<status status="PASS" starttime="20211222 13:42:08.920" endtime="20211222 13:42:09.096"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="address.state"]</arg>
+<arg>Indonesia</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211222 13:42:09.097" level="INFO">Typing text 'Indonesia' into text field '//*[@id="address.state"]'.</msg>
+<status status="PASS" starttime="20211222 13:42:09.096" endtime="20211222 13:42:09.279"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="address.zipCode"]</arg>
+<arg>20217</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211222 13:42:09.281" level="INFO">Typing text '20217' into text field '//*[@id="address.zipCode"]'.</msg>
+<status status="PASS" starttime="20211222 13:42:09.280" endtime="20211222 13:42:09.490"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="ssn"]</arg>
+<arg>2153212</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211222 13:42:09.493" level="INFO">Typing text '2153212' into text field '//*[@id="ssn"]'.</msg>
+<status status="PASS" starttime="20211222 13:42:09.491" endtime="20211222 13:42:09.762"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="lookupForm"]/table/tbody/tr[8]/td[2]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211222 13:42:09.765" level="INFO">Clicking element '//*[@id="lookupForm"]/table/tbody/tr[8]/td[2]/input'.</msg>
+<status status="PASS" starttime="20211222 13:42:09.763" endtime="20211222 13:42:14.746"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211222 13:42:24.763" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20211222 13:42:14.748" endtime="20211222 13:42:24.764"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20211222 13:42:24.765" endtime="20211222 13:42:27.050"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Test Completed</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211222 13:42:27.053" level="INFO">Test Completed</msg>
+<status status="PASS" starttime="20211222 13:42:27.051" endtime="20211222 13:42:27.054"/>
+</kw>
+<status status="PASS" starttime="20211222 13:41:49.330" endtime="20211222 13:42:27.055"/>
+</test>
+<status status="PASS" starttime="20211222 13:41:48.701" endtime="20211222 13:42:27.060"/>
+</suite>
+<status status="PASS" starttime="20211222 13:41:48.695" endtime="20211222 13:42:27.067"/>
+</suite>
+<status status="PASS" starttime="20211222 13:41:48.658" endtime="20211222 13:42:27.071"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot ParabankTest">Robot ParabankTest</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="TestSuite">Robot ParabankTest.TestSuite</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="ForgotPassword">Robot ParabankTest.TestSuite.ForgotPassword</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
